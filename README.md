@@ -103,8 +103,8 @@ Po trénovaní sa najlepší model vyhodnotí na testovacej množine a výsledky
 
 ### Výstupy
 
-- `model_slovakbert_simple/best/` — priečinok s najlepším modelom a tokenizérom
-- `model_slovakbert_simple/vysledky.txt` — výsledky na testovacej množine
+- `model_slovakbert/best/` — priečinok s najlepším modelom a tokenizérom
+- `model_slovakbert/vysledky.txt` — výsledky na testovacej množine
 
 ---
 
@@ -153,7 +153,7 @@ Tento skript realizuje vysvetliteľnú analýzu všetkých troch natrénovaných
 Pred spustením XAI analýzy musia existovať nasledujúce súbory a priečinky:
 
 - `model_lstm_best.pt` — uložený LSTM model
-- `model_slovakbert_simple/best/` — uložený SlovakBERT model
+- `model_slovakbert/best/` — uložený SlovakBERT model
 - `model_xlmr/best/` — uložený XLM-RoBERTa model
 
 ### Použitie
@@ -190,7 +190,7 @@ Pre každý model sa na celej testovacej množine vypočíta a vizualizuje matic
 **Porovnanie metrík (`plot_porovnanie`):**
 Vygeneruje sa stĺpcový graf porovnávajúci Accuracy, Precision, Recall a F1 skóre všetkých troch modelov.
 
-**Poznámka:** Hodnoty metrík vo funkcii `plot_porovnanie` sú zapísané pevne v kóde. Pred spustením XAI analýzy ich aktualizujte podľa skutočných výsledkov v súboroch `model_lstm_vysledky.txt`, `model_slovakbert_simple/vysledky.txt` a `model_xlmr/vysledky.txt`.
+**Poznámka:** Hodnoty metrík vo funkcii `plot_porovnanie` sú zapísané pevne v kóde. Pred spustením XAI analýzy ich aktualizujte podľa skutočných výsledkov v súboroch `model_lstm_vysledky.txt`, `model_slovakbert/vysledky.txt` a `model_xlmr/vysledky.txt`.
 
 ### Výstupy
 
