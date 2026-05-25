@@ -228,4 +228,3 @@ python3 XAI.py
 ## Reprodukovateľnosť
 
 Všetky experimenty používajú pevný random seed `42` nastavený pre knižnice `torch`, `numpy` aj Hugging Face `Trainer` (vrátane permutácií v PFI analýze). Výsledky sa môžu mierne líšiť v závislosti od verzie knižníc a hardvéru (CPU vs. GPU, typ GPU).
->>>>>>> b17c769 (initial commit)
