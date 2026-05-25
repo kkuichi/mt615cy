@@ -14,7 +14,7 @@ from transformers import (
 )
 
 MODEL_ID = "gerulata/slovakbert"
-SAVE_DIR = "model_slovakbert_simple"
+SAVE_DIR = "model_slovakbert"
 SEED = 42
 
 torch.manual_seed(SEED)
