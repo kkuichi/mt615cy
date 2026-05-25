@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# mt615cy
-=======
 # Systémová príručka
 
 Systémová príručka na popis a spustenie všetkých kódov v tomto úložisku.
