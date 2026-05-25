@@ -324,7 +324,7 @@ def plot_porovnanie():
 
     result_paths = {
         "LSTM": "model_lstm_vysledky.txt",
-        "SlovakBERT": "model_slovakbert_simple/vysledky.txt",
+        "SlovakBERT": "model_slovakbert/vysledky.txt",
         "XLM-RoBERTa": "model_xlmr/vysledky.txt",
     }
 
@@ -443,9 +443,9 @@ if __name__ == "__main__":
     # ---- SlovakBERT ----
     print("\n" + "=" * 60)
     print("Nacitavam SlovakBERT...")
-    sb_tokenizer = AutoTokenizer.from_pretrained("model_slovakbert_simple/best")
+    sb_tokenizer = AutoTokenizer.from_pretrained("model_slovakbert/best")
     sb_model = AutoModelForSequenceClassification.from_pretrained(
-        "model_slovakbert_simple/best"
+        "model_slovakbert/best"
     )
     sb_model.eval().to(device)
 
